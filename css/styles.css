@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 100px 1fr 2fr;
+  background-color: #0ea5e9;
+  align-items: center;
+  gap: 3rem;
+  color: #fff;
+  padding-left: 2rem;
+}
+
+.sidebar--options {
+  align-self: start;
+}
+
+.sidebar--item h2,
+.sidebar--item h1 {
+  font-size: 2rem;
+  padding-left: 1.6rem;
+}
+
+.sidebar--item h1 {
+  font-size: 3rem;
+  padding-left: 1rem;
+}
+
+div .sidebar--item {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar--options,
+.sidebar--nav {
+  padding-left: 0.9rem;
+}
+
+/* Icons */
+.icon {
+  height: 40px;
+  width: 30px;
+  margin: 1rem 0;
+}
+
+.icon__top {
+  height: 60px;
+  width: 45px;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: ease-in 0.1s;
+}
+
+a:hover {
+  color: #e5e5e5;
+  transform: scale(1.1);
+}
+
+/* Sidebar Styles End */
