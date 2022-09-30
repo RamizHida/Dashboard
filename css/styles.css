@@ -71,3 +71,9 @@ a:hover {
 }
 
 /* Sidebar Styles End */
+
+/* Header */
+.profile--image {
+  width: 75px;
+  border-radius: 100%;
+}
